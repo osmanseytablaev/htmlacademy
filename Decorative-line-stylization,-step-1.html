@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Декоративная стилизация строки, шаг 1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="square">Warmphoto</div>
+    <style>
+    	@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("fonts/MontserratAlternates.woff") format("woff");
+}
+
+body {
+  background: url("image/rain.jpg") no-repeat 50% 0;
+  color: #333333;
+  font-size: 12px;
+  font-family: "Arial", sans-serif;
+}
+
+.square {
+  width: 260px;
+  font-size: 72px;
+  font-family: "Montserrat Alternates", sans-serif;
+  border: 5px solid #333333;
+  margin: 150px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+    </style>
+  </body>
+</html>
