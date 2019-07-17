@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Направление текста и таблицы</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <article>
+      <h1>Статистика использования браузеров</h1>
+      <table>
+        <tr> 
+          <td>Год</td>
+          <td>2008</td>
+          <td>2010</td>
+          <td>2012</td>
+          <td>2014</td>
+        </tr>
+        <tr> 
+          <td>Chrome</td>
+          <td>3%</td>
+          <td>22%</td>
+          <td>47%</td>
+          <td>59%</td>
+        </tr>
+        <tr>
+          <td>Firefox</td>
+          <td>42%</td>
+          <td>43%</td>
+          <td>31%</td>
+          <td>25%</td>
+        </tr>
+        <tr>
+          <td>IE</td>
+          <td>50%</td>
+          <td>27%</td>
+          <td>15%</td>
+          <td>9%</td>
+        </tr>
+      </table> 
+    </article>
+    <style>
+      body {
+  padding: 10px;
+  background: url("image/bokeh.jpg") no-repeat 50% 0;
+  color: #333333;
+  font-size: 14px;
+  font-family: "Georgia", sans;
+}
+
+article {
+  direction: rtl;
+  padding: 20px;
+  background-color: rgba(240, 240, 240, 0.85);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+td {
+  padding: 10px 15px;
+  border-right: 1px dashed #cccccc;
+}
+
+td:first-child {
+  text-align: right;
+  font-style: italic;
+}
+
+td:last-child {
+  border-right: none;
+}
+    </style>
+    </body>
+</html>
