@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Испытание: поиграйся со шрифтами</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Keksobas</h1>
+    <style>
+    	body {
+  margin: 0;
+  width: 570px;
+  height: 300px;
+  background: url("image/football.jpg") -120px -60px no-repeat;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+h1 /* keksobas */ {
+position: relative;
+margin: 0;
+padding-left: 40px;
+width: 320px;
+text-indent: 100px;
+font-weight: normal;
+text-transform: uppercase;
+text-shadow: -5px 5px rgba(0, 0, 0, 0.5);
+font-size: 80px;
+letter-spacing: 40px;
+word-wrap: break-word;
+line-height: 100px;
+}
+
+h1::before {
+  position: absolute;
+  top: -5px;
+  left: -55px;
+  content: "|||";
+}
+    </style>
+  </body>
+</html>
